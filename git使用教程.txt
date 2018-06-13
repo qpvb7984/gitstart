@@ -26,4 +26,10 @@ git reset -hard commit id（到指定版本）
 git remote add origin https://github.com/qpvb7984/gitstart.git
 git push -u origin master
 第七步
-创建分支
+创建分支 git branch <name>
+查看分支 git branch 
+切换分支 git checkout <name>
+创建+切换分支 git checkout -b <name>
+在分支中修改文件，再提交文件
+合并某分支到当前分支  git merge <name>
+删除分支 git branch -d <name>
