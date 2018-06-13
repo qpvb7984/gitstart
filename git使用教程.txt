@@ -10,3 +10,18 @@ git reset -hard commit id（到指定版本）
 第四步：
 理解git的修改操作，先理解工作区和暂存区，所以改变文件，需要先 git add 再 git commit
 (因为只有git add的文件才会放在暂存区，git commit只会提交暂存区的文件)
+第五步
+学习如何撤销修改：
+第一种，在git add之前撤销，用git status 查看，
+(use "git checkout -- <file>..." to discard changes in working directory)
+可以使用 git checkout -- license.txt 撤销本地；
+第二种，在git add后撤销，用git status 查看，
+(use "git reset HEAD <file>..." to unstage)
+可以使用 git reset HEAD license.txt 将暂存区的撤销，再用git status查看，
+(use "git checkout -- <file>..." to discard changes in working directory)
+可以使用 git checkout -- license.txt 撤销本地
+第六步
+添加远程库
+将本地项目上传到github的命令
+git remote add origin https://github.com/qpvb7984/gitstart.git
+git push -u origin master
