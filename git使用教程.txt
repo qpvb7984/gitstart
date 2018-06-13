@@ -1,9 +1,12 @@
 git的安装和使用教程请看：
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 第一步：
-学习git add 和 git commit -m 命令
+学习git add "文件" 和 git commit -m "提交注释"命令
 第二步：
 学习 git status 和 git diff 命令
 第三步：
 学习如何回退或到指定版本,git log , get log pretty=online , git reset --hard HEAD(回退到上一个版本),
 git reset -hard commit id（到指定版本）
+第四步：
+理解git的修改操作，先理解工作区和暂存区，所以改变文件，需要先 git add 再 git commit
+(因为只有git add的文件才会放在暂存区，git commit只会提交暂存区的文件)
