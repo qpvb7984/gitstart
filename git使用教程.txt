@@ -25,3 +25,5 @@ git reset -hard commit id（到指定版本）
 将本地项目上传到github的命令
 git remote add origin https://github.com/qpvb7984/gitstart.git
 git push -u origin master
+第七步
+创建分支
