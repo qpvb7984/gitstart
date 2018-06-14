@@ -46,7 +46,7 @@ git push -u origin master
 处理冲突，一般先手动处理冲突，Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容。
 处理后，git add <name> ,再git commit -m ""
 
-第八步：不使用fast forward合并分支(会创建一个新的commit)，这样就可以从日志中看到分支历史
+第九步：不使用fast forward合并分支(会创建一个新的commit)，这样就可以从日志中看到分支历史
 创建并切换分支：
 git checkout -b dev
 提交license.txt的修改：
@@ -55,3 +55,6 @@ git commit -m "分支管理"
 切换回master:
 git checkout master
 git merge --no-ff -m "merge with no-ff" dev
+
+第十步
+bug分支
