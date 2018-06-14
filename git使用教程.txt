@@ -36,4 +36,5 @@ git push -u origin master
 第八步
 处理冲突，一般先手动处理冲突，Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容。
 处理后，git add <name> ,再git commit -m ""
-
+第九步
+bug分支
