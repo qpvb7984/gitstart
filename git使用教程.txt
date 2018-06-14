@@ -33,3 +33,7 @@ git push -u origin master
 在分支中修改文件，再提交文件
 合并某分支到当前分支  git merge <name>
 删除分支 git branch -d <name>
+第八步
+处理冲突，一般先手动处理冲突，Git用<<<<<<<，=======，>>>>>>>标记出不同分支的内容。
+处理后，git add <name> ,再git commit -m ""
+
