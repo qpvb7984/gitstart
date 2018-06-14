@@ -58,3 +58,10 @@ git merge --no-ff -m "merge with no-ff" dev
 
 第十步
 bug分支
+当正在自己的你分支做工作，突然要去修改主干的某一个bug,但是你自己分支的工作暂时无法提交，这时可以用
+git stash ，将当前现场保护起来，之后再恢复继续工作
+再git status 查看工作区是否干净
+之后创建bug分支，用于修改bug,修改后，将bug分支合并到主干
+再 git checkout 回到工作的分支，
+查看stash目录 git stash list
+恢复stash  git stash apply  git stash drop  或者 git stash pop（恢复并删除）
